@@ -41,7 +41,7 @@ bot = Client(
 
 API_ID    = os.environ.get("API_ID", "24495656")
 API_HASH  = os.environ.get("API_HASH", "61afcf68c6429714dd18acd07f246571")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7705076607:AAHPwB2ifTJg2DCPynWRYvleA3IAaKwthwA") 
 
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
