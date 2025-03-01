@@ -46,11 +46,11 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "7705076607:AAHPwB2ifTJg2DCPynWRYvleA3IA
 # Get the MongoDB collection for this bot
 collection = get_collection(BOT_NAME, MONGO_URI)
 # Constants
-OWNER_IDS = [7383412887]  # Replace with the actual owner user IDs
+OWNER_IDS = [7246728595]  # Replace with the actual owner user IDs
 
 cookies_file_path = "modules/cookies.txt"
 # Global variables
-log_channel_id = -1002474281525
+log_channel_id = -1002390273529
 authorized_users = []
 ALLOWED_CHANNEL_IDS = []
 my_name = "𝐊𝐔𝐍𝐀𝐋❤️"
